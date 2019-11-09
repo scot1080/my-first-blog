@@ -1,0 +1,49 @@
+body {
+  margin:0px;
+}
+
+#blog-title-container {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    background-color:#FF69B4;
+    padding:0px;
+    height:150px;
+
+}
+
+#blog-title {
+    color:white;
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    padding:0px;
+}
+
+#posts-container {
+    margin-left: 25px;
+}
+
+.post-container{
+    
+}
+
+.post-title {
+    font-family:"Roboto Mono";
+    margin-bottom:1px;
+    color: #FF0E86;
+}
+
+.post-date {
+    margin-top:0px;
+}
+
+.post-text {
+    
+}
+
+a {
+  text-decoration: none;
+  color: #FF0E86;
+   
+}

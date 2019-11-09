@@ -1,0 +1,15 @@
+{% load static %}
+<html>
+<head>
+    <title>Jordan's Blog</title>
+    <link rel='stylesheet' href="{% static 'css/blog.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pacifico|Roboto+Mono|Supermercado+One&display=swap" rel="stylesheet"
+</head>
+<body>
+    <div id="blog-title-container"><h1 id='blog-title'>Jordan's Django Girls Blog</h1></div>
+    <div id="posts-container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
